@@ -1,15 +1,22 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Challenge:
+// Creating smart kitchen
+// Will be composed of appliances
+
+// addWater() will set coffeemaker's hasWorkTodo to true
+// same with pourMilk and refridgerator
+// Same with loadDishwasher()
+
+// Or we could have a single setKitchenState method which takes three booleans
+
+// We'll implement in two ways:
+
+//First, access each appliance with getter and execue a method. orderFood(), doDishes or brewCoffee().
+    // These check hasWorkTodo and if true, print message about what's being done
+
+// Second, don't access appliance directly. Call doKitchenWork() which delegates work to any of its appliances.
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
     }
 }
